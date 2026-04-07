@@ -4,14 +4,15 @@ import {
   Instagram, Ticket, Bed, Bus, Utensils, PartyPopper, ChevronRight } from
 'lucide-react';
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/components/ui/accordion';
-import heroImg from '@/assets/hero-vietnam.jpg';
-import haGiangImg from '@/assets/ha-giang.jpg';
-import hanoiImg from '@/assets/hanoi.jpg';
+import heroImg from '@/assets/hero-indonesia.jpg';
+import nusaLembonganImg from '@/assets/nusa-lembongan.jpg';
+import giliTImg from '@/assets/gili-t.jpg';
+import kutaLombokImg from '@/assets/kuta-lombok.jpg';
 import logoImg from '@/assets/mad-monkey-logo.png';
 import monkeyIcon from '@/assets/mad-monkey-icon.png';
-import vibeSunsetImg from '@/assets/vibe-sunset.jpg';
-import vibeFoodsImg from '@/assets/vibe-food.jpg';
-import vibeFriendsImg from '@/assets/vibe-friends.jpg';
+import vibeBoatpartyImg from '@/assets/vibe-boatparty.jpg';
+import vibeMantarayImg from '@/assets/vibe-mantaray.jpg';
+import vibeAtvImg from '@/assets/vibe-atv.jpg';
 
 const TikTokIcon = ({ className = "w-4 h-4" }: {className?: string;}) =>
 <svg className={className} viewBox="0 0 24 24" fill="currentColor">

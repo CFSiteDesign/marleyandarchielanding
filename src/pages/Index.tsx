@@ -132,6 +132,12 @@ export default function Index() {
            </p>
 
           <div className="flex justify-center gap-4 mb-8">
+            <a href="https://instagram.com/Marleyandarchieoffical" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 bg-primary-foreground/20 hover:bg-primary-foreground/30 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm font-medium transition-colors">
+              <Instagram size={16} /> @Marleyandarchieoffical
+            </a>
+            <a href="https://tiktok.com/@Marleyandarchieoffical" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 bg-primary-foreground/20 hover:bg-primary-foreground/30 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm font-medium transition-colors">
+              <TikTokIcon /> @Marleyandarchieoffical
+            </a>
           </div>
 
            <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -370,6 +376,12 @@ export default function Index() {
               <span className="text-primary-foreground font-display font-black text-sm tracking-tight">ARCHIE</span>
             </div>
              <div className="flex gap-6">
+               <a href="https://instagram.com/Marleyandarchieoffical" target="_blank" rel="noreferrer" className="bg-primary-foreground/10 p-3 rounded-full hover:bg-brand-red transition-colors">
+                 <Instagram size={24} />
+               </a>
+               <a href="https://tiktok.com/@Marleyandarchieoffical" target="_blank" rel="noreferrer" className="bg-primary-foreground/10 p-3 rounded-full hover:bg-brand-red transition-colors">
+                 <TikTokIcon className="w-6 h-6" />
+               </a>
              </div>
           </div>
           <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground font-medium">

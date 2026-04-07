@@ -89,7 +89,7 @@ export default function Index() {
               <a href="#itinerary" className="text-muted-foreground hover:text-brand-red transition-colors">Itinerary</a>
               <a href="#included" className="text-muted-foreground hover:text-brand-red transition-colors">Included</a>
               <a href="#who-its-for" className="text-muted-foreground hover:text-brand-red transition-colors">Who It's For</a>
-                <a href="https://buy.stripe.com/dRmbJ0fmPfTW3TWclAe7s3m" target="_blank" rel="noreferrer" className="bg-brand-red text-primary-foreground px-5 py-2 rounded-full hover:opacity-90 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5 duration-200">
+                <a href="https://buy.stripe.com/fZu14m8Yr7nq8ac71ge7s3U" target="_blank" rel="noreferrer" className="bg-brand-red text-primary-foreground px-5 py-2 rounded-full hover:opacity-90 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5 duration-200">
                    Get Info
                  </a>
             </div>
@@ -128,7 +128,7 @@ export default function Index() {
           </div>
 
            <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="https://buy.stripe.com/dRmbJ0fmPfTW3TWclAe7s3m" target="_blank" rel="noreferrer" className="bg-brand-red text-primary-foreground text-lg font-bold px-8 py-4 rounded-full hover:opacity-90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1 duration-200 flex items-center justify-center gap-2">
+            <a href="https://buy.stripe.com/fZu14m8Yr7nq8ac71ge7s3U" target="_blank" rel="noreferrer" className="bg-brand-red text-primary-foreground text-lg font-bold px-8 py-4 rounded-full hover:opacity-90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1 duration-200 flex items-center justify-center gap-2">
                Book Now <ChevronRight size={20} />
              </a>
             <a href="#itinerary" className="bg-primary-foreground/10 hover:bg-primary-foreground/20 backdrop-blur-md border border-primary-foreground/30 text-lg font-bold px-8 py-4 rounded-full transition-colors flex items-center justify-center">
@@ -311,7 +311,7 @@ export default function Index() {
            <p className="text-xl md:text-2xl font-medium mb-10 opacity-90">
              This trip will sell out fast. Secure your spot in minutes and get ready for an epic adventure.
            </p>
-            <a href="https://buy.stripe.com/dRmbJ0fmPfTW3TWclAe7s3m" target="_blank" rel="noreferrer" className="inline-block bg-brand-black text-primary-foreground text-xl font-black uppercase px-10 py-5 rounded-full hover:opacity-90 transition-all shadow-2xl transform hover:scale-105 duration-200">
+            <a href="https://buy.stripe.com/fZu14m8Yr7nq8ac71ge7s3U" target="_blank" rel="noreferrer" className="inline-block bg-brand-black text-primary-foreground text-xl font-black uppercase px-10 py-5 rounded-full hover:opacity-90 transition-all shadow-2xl transform hover:scale-105 duration-200">
               Lock It In Now
             </a>
          </div>
@@ -379,7 +379,7 @@ export default function Index() {
 
       {/* STICKY MOBILE CTA */}
        <div className={`fixed bottom-0 left-0 w-full p-4 bg-card border-t border-border shadow-[0_-10px_20px_rgba(0,0,0,0.1)] z-50 md:hidden transition-transform duration-300 ${isScrolled ? 'translate-y-0' : 'translate-y-full'}`}>
-          <a href="https://buy.stripe.com/dRmbJ0fmPfTW3TWclAe7s3m" target="_blank" rel="noreferrer" className="flex items-center justify-center w-full bg-brand-red text-primary-foreground font-black uppercase py-4 rounded-xl shadow-lg active:scale-95 transition-transform">
+          <a href="https://buy.stripe.com/fZu14m8Yr7nq8ac71ge7s3U" target="_blank" rel="noreferrer" className="flex items-center justify-center w-full bg-brand-red text-primary-foreground font-black uppercase py-4 rounded-xl shadow-lg active:scale-95 transition-transform">
              Lock It In Now – 20 Spots Left
            </a>
        </div>

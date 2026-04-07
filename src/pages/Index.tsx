@@ -41,7 +41,7 @@ export default function Index() {
       name: 'Uluwatu',
       daysLabel: 'Days 1-2',
       duration: '2 Days (May 11-12)',
-      img: hanoiImg,
+      img: heroImg,
       desc: "Your adventure starts at Mad Monkey Uluwatu. Meet the crew at a welcome sunset session at Panorama Point, then gear up for ATV and white water rafting.",
       highlights: [
         'Day 1 — Welcome Sunset session at Panorama Point Uluwatu',
@@ -52,7 +52,7 @@ export default function Index() {
       name: 'Nusa Lembongan',
       daysLabel: 'Days 3-4',
       duration: '2 Days (May 13-14)',
-      img: haGiangImg,
+      img: nusaLembonganImg,
       desc: "Hop on a fast boat to the island paradise of Nusa Lembongan. Cliff jumping, pontoon bars, and turquoise waters await.",
       highlights: [
         'Day 3 — Fast boat from Sanur to Mad Monkey Nusa Lembongan',
@@ -63,7 +63,7 @@ export default function Index() {
       name: 'Gili Trawangan',
       daysLabel: 'Days 5-7',
       duration: '3 Days (May 15-17)',
-      img: heroImg,
+      img: giliTImg,
       desc: "The legendary Gili T. Boat parties, snorkelling, sunset swings — this is where the magic happens.",
       highlights: [
         'Day 5 — Fast boat to Gili T, check into Mad Monkey',
@@ -75,7 +75,7 @@ export default function Index() {
       name: 'Kuta Lombok & Saleh Bay',
       daysLabel: 'Days 8-11',
       duration: '4 Days (May 18-21)',
-      img: haGiangImg,
+      img: kutaLombokImg,
       desc: "Head to Lombok for the grand finale — a 2-day Manta Ray expedition in Saleh Bay before wrapping up this epic trip.",
       highlights: [
         'Day 8 — Short boat to Lombok, shuttle to Mad Monkey Kuta Lombok',
@@ -245,13 +245,13 @@ export default function Index() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
-              <img src={vibeSunsetImg} alt="Sunset in the Ha Giang mountains" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+              <img src={vibeBoatpartyImg} alt="Sunset boat party in Indonesia" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
-              <img src={vibeFoodsImg} alt="Hanoi street food experience" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+              <img src={vibeMantarayImg} alt="Snorkeling with manta rays" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
-              <img src={vibeFriendsImg} alt="Friends on motorbikes in Vietnam" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+              <img src={vibeAtvImg} alt="ATV adventure through Bali rice terraces" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
             </div>
           </div>
         </div>

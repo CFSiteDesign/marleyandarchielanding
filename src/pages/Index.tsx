@@ -96,7 +96,7 @@ export default function Index() {
           <div className="flex-shrink-0 flex items-center gap-3">
               <img src={logoImg} alt="Mad Monkey" className="h-8 w-auto" />
               <span className="text-brand-red text-xl font-bold">|</span>
-              <span className="text-foreground font-display font-black text-sm tracking-tight">ARCHIE</span>
+              <span className="text-foreground font-display font-black text-sm tracking-tight">MARLEY & ARCHIE</span>
             </div>
             <div className="hidden md:flex space-x-8 items-center font-semibold text-sm">
               <a href="#itinerary" className="text-muted-foreground hover:text-brand-red transition-colors">Itinerary</a>
@@ -373,7 +373,7 @@ export default function Index() {
             <div className="flex items-center gap-3">
               <img src={logoImg} alt="Mad Monkey" className="h-8 w-auto" style={{ filter: 'drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white)' }} />
               <span className="text-brand-red text-xl font-bold">|</span>
-              <span className="text-primary-foreground font-display font-black text-sm tracking-tight">ARCHIE</span>
+              <span className="text-primary-foreground font-display font-black text-sm tracking-tight">MARLEY & ARCHIE</span>
             </div>
              <div className="flex gap-6">
                <a href="https://instagram.com/Marleyandarchieoffical" target="_blank" rel="noreferrer" className="bg-primary-foreground/10 p-3 rounded-full hover:bg-brand-red transition-colors">

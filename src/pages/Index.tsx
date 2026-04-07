@@ -37,38 +37,50 @@ export default function Index() {
 
   const locations = [
     {
-      name: 'Hanoi',
+      name: 'Uluwatu',
       daysLabel: 'Days 1-2',
-      duration: '2 Days (May 4-5)',
+      duration: '2 Days (May 11-12)',
       img: hanoiImg,
-      desc: "Your adventure starts at Mad Monkey Hanoi. Check in, meet the crew, and kick things off with a welcome party before heading north to Ha Giang.",
+      desc: "Your adventure starts at Mad Monkey Uluwatu. Meet the crew at a welcome sunset session at Panorama Point, then gear up for ATV and white water rafting.",
       highlights: [
-        'Day 1 — Arrive at Mad Monkey Hanoi, welcome party!',
-        'Day 2 — 9:30AM departure for 7-hour ride to Ha Giang',
+        'Day 1 — Welcome Sunset session at Panorama Point Uluwatu',
+        'Day 2 — ATV and White Water Rafting tour + Fire Dance Show',
       ],
     },
     {
-      name: 'Ha Giang',
-      daysLabel: 'Days 3-6',
-      duration: '4 Days (May 6-9)',
+      name: 'Nusa Lembongan',
+      daysLabel: 'Days 3-4',
+      duration: '2 Days (May 13-14)',
       img: haGiangImg,
-      desc: "The legendary Ha Giang Loop. Carve through Vietnam's most dramatic mountain passes, visit local villages, and soak in views that'll stay with you forever.",
+      desc: "Hop on a fast boat to the island paradise of Nusa Lembongan. Cliff jumping, pontoon bars, and turquoise waters await.",
       highlights: [
-        'Day 3 — Pác Sum Pass, Khau Làn Waterfall, Heaven Gate + happy water',
-        'Day 4 — Red Dao villages, bamboo rafting, Ma Pi Leng Pass & Skywalk',
-        'Day 5 — Vietnam–China border, Lung Cu Flag Pole, H\'mong King\'s Palace',
-        'Day 6 — Lung Khuy Cave hike, final lunch with a view, ride back to Hanoi',
+        'Day 3 — Fast boat from Sanur to Mad Monkey Nusa Lembongan',
+        'Day 4 — Pontoon Lago bar & cliff jumping at Blue Lagoon',
       ],
     },
     {
-      name: 'Hanoi',
-      daysLabel: 'Days 7-8',
-      duration: '2 Days (May 10-11)',
-      img: hanoiImg,
-      desc: "Back in Hanoi for the grand finale. Celebrate with the crew at the Goodbye party, swap photos, and check out with a lifetime of memories.",
+      name: 'Gili Trawangan',
+      daysLabel: 'Days 5-7',
+      duration: '3 Days (May 15-17)',
+      img: heroImg,
+      desc: "The legendary Gili T. Boat parties, snorkelling, sunset swings — this is where the magic happens.",
       highlights: [
-        'Day 7 — Goodbye party, exchange photos & tag us!',
-        'Day 8 — Check out. Until next time! 🤙',
+        'Day 5 — Fast boat to Gili T, check into Mad Monkey',
+        'Day 6 — The legendary Mad Monkey Boat Party 🚤',
+        'Day 7 — "Monkey Sea, Monkey Do" Snorkeling + Sunset swings',
+      ],
+    },
+    {
+      name: 'Kuta Lombok & Saleh Bay',
+      daysLabel: 'Days 8-11',
+      duration: '4 Days (May 18-21)',
+      img: haGiangImg,
+      desc: "Head to Lombok for the grand finale — a 2-day Manta Ray expedition in Saleh Bay before wrapping up this epic trip.",
+      highlights: [
+        'Day 8 — Short boat to Lombok, shuttle to Mad Monkey Kuta Lombok',
+        'Day 9 — Depart on the 2D/1N Manta Ray expedition 🦈',
+        'Day 10 — Sunrise swim with manta rays, return to Kuta',
+        'Day 11 — Recovery breakfast, 30-min shuttle to Lombok Airport',
       ],
     },
   ];
@@ -83,7 +95,7 @@ export default function Index() {
           <div className="flex-shrink-0 flex items-center gap-3">
               <img src={logoImg} alt="Mad Monkey" className="h-8 w-auto" />
               <span className="text-brand-red text-xl font-bold">|</span>
-              <span className="text-foreground font-display font-black text-sm tracking-tight">SCRUFF BROTHERS</span>
+              <span className="text-foreground font-display font-black text-sm tracking-tight">ARCHIE</span>
             </div>
             <div className="hidden md:flex space-x-8 items-center font-semibold text-sm">
               <a href="#itinerary" className="text-muted-foreground hover:text-brand-red transition-colors">Itinerary</a>
@@ -101,7 +113,7 @@ export default function Index() {
       <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-brand-black/60 via-brand-black/40 to-brand-black/80 z-10" />
-          <img src={heroImg} alt="Vietnam mountains adventure" className="w-full h-full object-cover" />
+          <img src={heroImg} alt="Indonesia islands adventure" className="w-full h-full object-cover" />
         </div>
         
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-primary-foreground">
@@ -110,21 +122,15 @@ export default function Index() {
           </div>
           
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-4 leading-[0.9] tracking-tight uppercase drop-shadow-xl font-display">
-              Vietnam <br className="hidden md:block" />
+              Indonesia <br className="hidden md:block" />
               <span className="text-brand-red">Takeover</span>
             </h1>
           
            <p className="text-4xl md:text-6xl font-black tracking-tight mb-6 font-display drop-shadow-xl text-primary-foreground">
-             MAY 4 - 11
+             MAY 11 - 21
            </p>
 
           <div className="flex justify-center gap-4 mb-8">
-            <a href="https://instagram.com/scruff_brotherss" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 bg-primary-foreground/20 hover:bg-primary-foreground/30 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm font-medium transition-colors">
-              <Instagram size={16} /> @scruff_brotherss
-            </a>
-            <a href="https://tiktok.com/@Scruff_brotherss" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 bg-primary-foreground/20 hover:bg-primary-foreground/30 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm font-medium transition-colors">
-              <TikTokIcon /> @Scruff_brotherss
-            </a>
           </div>
 
            <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -144,20 +150,20 @@ export default function Index() {
           <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm sm:text-base">
            <div className="flex items-center gap-2">
               <Clock className="text-brand-red shrink-0" size={18} />
-              <span className="font-black">7 Days</span>
-              <span className="text-muted-foreground">of adventure</span>
+               <span className="font-black">11 Days</span>
+               <span className="text-muted-foreground">of adventure</span>
             </div>
             <span className="hidden sm:inline text-brand-red font-bold">•</span>
             <div className="flex items-center gap-2">
               <MapPin className="text-brand-red shrink-0" size={18} />
-              <span className="font-black">2 Locations</span>
-              <span className="text-muted-foreground">across Vietnam</span>
+               <span className="font-black">5 Locations</span>
+               <span className="text-muted-foreground">across Indonesia</span>
             </div>
             <span className="hidden sm:inline text-brand-red font-bold">•</span>
             <div className="flex items-center gap-2">
               <PartyPopper className="text-brand-red shrink-0" size={18} />
-              <span className="font-black">Epic Adventure</span>
-              <span className="text-muted-foreground">mountains · culture · vibes</span>
+               <span className="font-black">Epic Adventure</span>
+               <span className="text-muted-foreground">islands · beaches · vibes</span>
             </div>
           </div>
         </div>
@@ -168,7 +174,7 @@ export default function Index() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tight mb-4 font-display">The <span className="text-brand-teal">Route</span></h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-medium">8 days of mountains, adventure, and incredible vibes across Vietnam's best spots.</p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-medium">11 days of islands, adventure, and incredible vibes across Indonesia's best spots.</p>
           </div>
 
           <div className="space-y-8">
@@ -209,9 +215,9 @@ export default function Index() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-            { icon: <Bed className="text-brand-black mb-4" size={32} />, title: 'Stays', items: ['7 nights accommodation', 'Comfy local guesthouses', 'Central locations'] },
-            { icon: <Bus className="text-brand-black mb-4" size={32} />, title: 'Transport', items: ['Easy riders included', 'Transfer to and from Ha Giang'] },
-            { icon: <Utensils className="text-brand-black mb-4" size={32} />, title: 'Meals & Extras', items: ['Welcome & Farewell meals', 'Plenty of happy water', 'Local guide support', 'Scruff Brothers as hosts!'] }].
+             { icon: <Bed className="text-brand-black mb-4" size={32} />, title: 'Stays', items: ['10 nights accommodation', 'Mad Monkey shared dorms', 'Island locations'] },
+             { icon: <Bus className="text-brand-black mb-4" size={32} />, title: 'Transport', items: ['All internal transport', 'Group vans between cities', 'Fast ferries to islands'] },
+             { icon: <Utensils className="text-brand-black mb-4" size={32} />, title: 'Tours & Extras', items: ['ATV & White Water Rafting', 'Mad Monkey Boat Party', 'Manta Ray expedition', 'Group leader in every location'] }].
             map((card, i) =>
             <div key={i} className="bg-primary-foreground/5 border border-primary-foreground/10 p-6 rounded-2xl hover:bg-primary-foreground/10 transition-colors">
                 {card.icon}
@@ -262,11 +268,11 @@ export default function Index() {
                 <CheckCircle2 className="text-brand-red" size={28} /> This IS for you if...
               </h3>
               <ul className="space-y-4 font-medium text-muted-foreground">
-                {[
-                "You want to travel with a like-minded, high-energy crew.",
-                "You love a mix of wild nights out and cultural exploration.",
+                 {[
+                "You're an 18–30 year old social traveller looking for the trip of a lifetime.",
+                "You love beach days, party nights, and island hopping.",
                 "You want the logistics handled so you can just show up and have fun.",
-                "You're down for hostel life, meeting new people, and making core memories."].
+                "You're a solo traveller who wants instant community and core memories."].
                 map((text, i) =>
                 <li key={i} className="flex items-start gap-3">
                     <div className="w-2 h-2 rounded-full bg-brand-red mt-2 shrink-0" />
@@ -286,11 +292,11 @@ export default function Index() {
             <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tight mb-4 font-display">What's <span className="text-brand-red">Not</span> Included</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {[
-              { title: 'International Flights', desc: 'Flights to and from Vietnam' },
-              { title: 'Personal Spend', desc: 'Meals, drinks, and optional activities not listed in the itinerary' },
-              { title: 'Visas', desc: 'Tourist Visa (approx. $30–$35)' },
-              { title: 'Travel Insurance', desc: 'Mandatory for all travellers' },
+             {[
+               { title: 'International Flights', desc: 'Flights to and from Indonesia' },
+               { title: 'Personal Spend', desc: 'Meals, drinks, and optional activities not listed in the itinerary' },
+               { title: 'Visas', desc: 'Tourist Visa (approx. $30–$35)' },
+               { title: 'Travel Insurance', desc: 'Mandatory for all travellers' },
             ].map((item, i) => (
               <div key={i} className="bg-muted border border-border rounded-2xl p-5">
                 <h4 className="text-lg font-black uppercase mb-1">{item.title}</h4>
@@ -306,7 +312,7 @@ export default function Index() {
          <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(hsl(var(--primary-foreground)) 2px, transparent 2px)', backgroundSize: '30px 30px' }} />
          <div className="relative z-10 max-w-3xl mx-auto">
            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-6 drop-shadow-lg font-display">
-              Only 20 Spots <br /> <span className="text-brand-black">Left!</span>
+              Only 50 Spots <br /> <span className="text-brand-black">Left!</span>
            </h2>
            <p className="text-xl md:text-2xl font-medium mb-10 opacity-90">
              This trip will sell out fast. Secure your spot in minutes and get ready for an epic adventure.
@@ -360,16 +366,10 @@ export default function Index() {
             <div className="flex items-center gap-3">
               <img src={logoImg} alt="Mad Monkey" className="h-8 w-auto" style={{ filter: 'drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white)' }} />
               <span className="text-brand-red text-xl font-bold">|</span>
-              <span className="text-primary-foreground font-display font-black text-sm tracking-tight">SCRUFF BROTHERS</span>
+              <span className="text-primary-foreground font-display font-black text-sm tracking-tight">ARCHIE</span>
             </div>
-            <div className="flex gap-6">
-              <a href="https://instagram.com/scruff_brotherss" target="_blank" rel="noreferrer" className="bg-primary-foreground/10 p-3 rounded-full hover:bg-brand-red transition-colors">
-                <Instagram size={24} />
-              </a>
-              <a href="https://tiktok.com/@Scruff_brotherss" target="_blank" rel="noreferrer" className="bg-primary-foreground/10 p-3 rounded-full hover:bg-brand-red transition-colors">
-                <TikTokIcon className="w-6 h-6" />
-              </a>
-            </div>
+             <div className="flex gap-6">
+             </div>
           </div>
           <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground font-medium">
             <p>&copy; {new Date().getFullYear()} Powered by Mad Monkey. All rights reserved.</p>
@@ -380,7 +380,7 @@ export default function Index() {
       {/* STICKY MOBILE CTA */}
        <div className={`fixed bottom-0 left-0 w-full p-4 bg-card border-t border-border shadow-[0_-10px_20px_rgba(0,0,0,0.1)] z-50 md:hidden transition-transform duration-300 ${isScrolled ? 'translate-y-0' : 'translate-y-full'}`}>
           <a href="https://buy.stripe.com/fZu14m8Yr7nq8ac71ge7s3U" target="_blank" rel="noreferrer" className="flex items-center justify-center w-full bg-brand-red text-primary-foreground font-black uppercase py-4 rounded-xl shadow-lg active:scale-95 transition-transform">
-             Lock It In Now – 20 Spots Left
+             Lock It In Now – 50 Spots Left
            </a>
        </div>
     </div>);
